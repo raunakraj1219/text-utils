@@ -13,12 +13,12 @@ function App() {
     <>
       <Navbar title="TextUtils" aboutUs="About us" />
       <Router>
-      <Routes>
-      <Route path='/' element={<TextForm />}/>
-      <Route path='/about' element={<About/>}/>
-      </Routes>
+        <Routes>
+          <Route path='/' element={<TextForm />} />
+          <Route path='/about' element={<About />} />
+        </Routes>
       </Router>
-      
+
     </>
   );
 }
