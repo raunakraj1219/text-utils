@@ -23,10 +23,10 @@ export default function Navbar(props) {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li className="nav-item" onClick={()=>{window.location.href="/"}}>
+            <li className="nav-item" onClick={() => { window.location.href = "/" }}>
               Home
             </li>
-            <li className="nav-item" onClick={()=>{window.location.href="/about"}}>
+            <li className="nav-item" onClick={() => { window.location.href = "/about" }}>
               {props.aboutUs}
             </li>
           </ul>
